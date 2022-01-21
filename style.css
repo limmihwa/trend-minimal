@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+h2{
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    
+}
+p{
+    margin-bottom: 50px;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    padding-top: 30px;
+}
+#main-header{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+}
+#main-header .gnb{
+    margin-top: 17px;
+}
+#main-header .gnb ul li {
+    display: inline-block;
+}
+#main-header .gnb ul li span{
+    margin-left: 22px;
+    margin-right: 22px;
+    color: #999;
+}
+#contents{
+    width: 1000px;
+    margin: 0 auto;
+}
+#main-footer{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 16px  ;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    color: #333333;
+    margin-top: 50px;
+}
+#contents{
+    width: 1000px;
+    height: 500px;
+}
+#contents h2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+/*about 전용 스타일 */
+#about #contents > article{
+    width: 100%;
+    overflow: hidden;
+}
+#about #contents > article > img{
+    float: left;
+    width: 500px;
+}
+#about #contents > article > .text{
+    float: right;
+    width: 450px;
+}
+/*activity 페이지*/
+#activity #contents article .info-ui{
+    background-color: #f4f4f4;
+    width: 320px;
+    height: 428px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    float: left;
+    margin-right: 10px;
+
+}
+#activity #contents article .info-ui .info p{
+    margin-bottom: 6px;
+}
+#activity #contents .info-ui .info{
+    padding: 20px;
+}
+#activity #contents .info-ui .info .title{
+    font-size: 20px;
+    font-weight: 500;
+}
+#activity #contents .info-ui .info .date{
+    font-size: 15px;
+    font-weight: 400;
+}
+#activity #contents .info-ui .info .tag{
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 0;
+
+}
+#activity #contents article .info-ui > img{
+    display: block;
+}
